@@ -1,6 +1,6 @@
 {% set name = "neovim" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "d60be04ba343f7ea99c54a9862a254a209ce9cabcdc3481fe5aca4d6f37a93fb" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "b7e91cad19ceaa30b45e8d22c8041bb0489937e7ac48302c10b419776eed7f9b" %}
 
 package:
   name: {{ name|lower }}
@@ -22,9 +22,10 @@ requirements:
 
   run:
     - python
-    - msgpack-python >=0.4.0
+    - msgpack-python >=0.5.0
     - greenlet
     - trollius  # [py27]
+    - pyuv >=1.0.0  # [win]
 
 test:
   imports:
