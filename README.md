@@ -15,14 +15,16 @@ Python client to neovim
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/neovim-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/neovim-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/neovim-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/neovim-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/neovim-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/neovim-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/neovim-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/neovim-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/neovim-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/neovim-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/neovim-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/neovim-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/neovim/badges/version.svg)](https://anaconda.org/conda-forge/neovim)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/neovim/badges/downloads.svg)](https://anaconda.org/conda-forge/neovim)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-neovim-green.svg)](https://anaconda.org/conda-forge/neovim) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/neovim.svg)](https://anaconda.org/conda-forge/neovim) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/neovim.svg)](https://anaconda.org/conda-forge/neovim) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/neovim.svg)](https://anaconda.org/conda-forge/neovim) |
 
 Installing neovim
 =================
