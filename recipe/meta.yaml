@@ -1,6 +1,6 @@
 {% set name = "neovim" %}
-{% set version = "0.2.5" %}
-{% set sha256 = "15bb84219090192e5552d8292d6b7f84c53d2340d9721244d04cf3373ec2091f" %}
+{% set version = "0.2.6" %}
+{% set sha256 = "6ce58a742e0427491c0e1c8108556ee72ba33844209bd9e226b8da9538299276" %}
 
 package:
   name: {{ name|lower }}
