@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - pynvim
-    - typing-extensions>=4.5
+    - typing-extensions >=4.5
 
 test:
   requires:
